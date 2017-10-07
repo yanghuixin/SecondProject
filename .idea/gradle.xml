@@ -8,7 +8,8 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/HttpClient" />
+            <option value="$PROJECT_DIR$/AsyncHttpClient" />
+            <option value="$PROJECT_DIR$/MyHttpClient" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

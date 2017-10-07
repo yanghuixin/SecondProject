@@ -1,1 +1,1 @@
-include ':HttpClient'
+include ':MyHttpClient', ':AsyncHttpClient'
