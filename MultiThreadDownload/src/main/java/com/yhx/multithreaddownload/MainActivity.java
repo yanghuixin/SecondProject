@@ -2,9 +2,12 @@ package com.yhx.multithreaddownload;
 
 import android.os.Bundle;
 import android.os.Environment;
+import android.os.Handler;
+import android.os.Message;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ProgressBar;
+import android.widget.TextView;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -23,12 +26,21 @@ public class MainActivity extends AppCompatActivity {
     //所有线程下载总进度
     int downloadProgress = 0;
     private ProgressBar pb;
+    private TextView tv;
+
+    Handler handler = new Handler(){
+        @Override
+        public void handleMessage(Message msg) {
+            tv.setText((long)pb.getProgress() * 100 / pb.getMax() + "%");
+        }
+    };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         pb = (ProgressBar) findViewById(R.id.pb);
+        tv = (TextView) findViewById(R.id.tv);
     }
 
     public void click(View view) {
@@ -115,6 +127,9 @@ public class MainActivity extends AppCompatActivity {
                     //把上一次的下载进度加到进度条中
                     downloadProgress += lastProgress;
                     pb.setProgress(downloadProgress);
+
+                    //发送消息，让文本进度条改变
+                    handler.sendEmptyMessage(1);
                 }
                 URL url = new URL(path);
                 HttpURLConnection conn = (HttpURLConnection) url.openConnection();
@@ -147,6 +162,9 @@ public class MainActivity extends AppCompatActivity {
                         //每次下载len个长度的字节，马上把len加到下载进度中，让进度条能反映这len个长度的下载进度
                         downloadProgress += len;
                         pb.setProgress(downloadProgress);
+
+                        //发送消息，让文本进度条改变
+                        handler.sendEmptyMessage(1);
                     }
                     raf.close();
                     System.out.println("线程" + threadId + "下载完毕-------------");

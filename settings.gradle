@@ -1,1 +1,1 @@
-include ':MyHttpClient', ':AsyncHttpClient', ':MultiThreadDownload'
+include ':MyHttpClient', ':AsyncHttpClient', ':MultiThreadDownload', ':XUtils'
