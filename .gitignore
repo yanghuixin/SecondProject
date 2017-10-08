@@ -8,3 +8,5 @@
 /captures
 .externalNativeBuild
 !/MyHttpClient/
+.idea/inspectionProfiles/
+XUtils/src/main/res/drawable/
