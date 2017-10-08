@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AsyncHttpClient/AsyncHttpClient.iml" filepath="$PROJECT_DIR$/AsyncHttpClient/AsyncHttpClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MultiThreadDownload/MultiThreadDownload.iml" filepath="$PROJECT_DIR$/MultiThreadDownload/MultiThreadDownload.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyHttpClient/MyHttpClient.iml" filepath="$PROJECT_DIR$/MyHttpClient/MyHttpClient.iml" />
       <module fileurl="file://$PROJECT_DIR$/SecondProject.iml" filepath="$PROJECT_DIR$/SecondProject.iml" />
     </modules>

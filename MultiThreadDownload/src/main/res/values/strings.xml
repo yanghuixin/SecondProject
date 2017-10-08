@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MultiThreadDownload</string>
+    <string name="download_name">下载</string>
+</resources>
