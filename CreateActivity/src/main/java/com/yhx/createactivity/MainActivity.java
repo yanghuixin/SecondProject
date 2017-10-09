@@ -43,8 +43,8 @@ public class MainActivity extends AppCompatActivity {
 
     public void cleck5(View view) {
         Intent intent = new Intent();
-        intent.setAction("com.yada.yhx");
-        intent.setData(Uri.parse("yhx:ohohoh"));
+        intent.setAction("com.yada.yhx2");
+        //intent.setData(Uri.parse("yhx:ohohoh"));
         //如果没有设置Category，系统自动添加默认Category
         intent.addCategory(Intent.CATEGORY_DEFAULT);
         startActivity(intent);
