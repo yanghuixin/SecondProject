@@ -9,6 +9,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/AsyncHttpClient" />
+            <option value="$PROJECT_DIR$/CreateActivity" />
             <option value="$PROJECT_DIR$/MultiThreadDownload" />
             <option value="$PROJECT_DIR$/MyHttpClient" />
             <option value="$PROJECT_DIR$/XUtils" />
