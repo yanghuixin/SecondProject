@@ -43,10 +43,18 @@ public class MainActivity extends AppCompatActivity {
 
     public void cleck5(View view) {
         Intent intent = new Intent();
-        intent.setAction("com.yada.yhx2");
-        //intent.setData(Uri.parse("yhx:ohohoh"));
+        intent.setAction("com.yada.yhx");
+        //intent.setData(Uri.parse("yhx:春眠不觉晓"));
+        //intent.setType("text/name");
+        intent.setDataAndType(Uri.parse("yhx:春眠不觉晓"),"text/name");
         //如果没有设置Category，系统自动添加默认Category
         intent.addCategory(Intent.CATEGORY_DEFAULT);
+        startActivity(intent);
+    }
+
+    public void cleck6(View view) {
+        Intent intent = new Intent();
+        intent.setClassName("com.android.browser","com.android.browser.BrowserActivity");
         startActivity(intent);
     }
 }

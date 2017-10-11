@@ -19,7 +19,7 @@
         <activity android:name=".SecondActivity">
             <intent-filter>
                 <action android:name="com.yada.yhx"/>
-                <data android:scheme="yhx"/>
+                <data android:scheme="yhx"  android:mimeType="text/name"/>
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
             <intent-filter>

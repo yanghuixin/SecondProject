@@ -43,4 +43,10 @@
         android:text="隐式启动SecondActivity"
         android:onClick="cleck5"/>
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="显示启动浏览器"
+        android:onClick="cleck6"/>
+
 </LinearLayout>
