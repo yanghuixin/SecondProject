@@ -1,1 +1,1 @@
-include ':MyHttpClient', ':AsyncHttpClient', ':MultiThreadDownload', ':XUtils', ':CreateActivity'
+include ':MyHttpClient', ':AsyncHttpClient', ':MultiThreadDownload', ':XUtils', ':CreateActivity', ':ActivityRunMode'
