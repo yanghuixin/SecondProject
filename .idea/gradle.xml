@@ -13,6 +13,7 @@
             <option value="$PROJECT_DIR$/CreateActivity" />
             <option value="$PROJECT_DIR$/MultiThreadDownload" />
             <option value="$PROJECT_DIR$/MyHttpClient" />
+            <option value="$PROJECT_DIR$/TransmitDate" />
             <option value="$PROJECT_DIR$/XUtils" />
           </set>
         </option>
