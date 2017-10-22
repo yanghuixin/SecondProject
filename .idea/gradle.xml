@@ -11,8 +11,10 @@
             <option value="$PROJECT_DIR$/ActivityRunMode" />
             <option value="$PROJECT_DIR$/AsyncHttpClient" />
             <option value="$PROJECT_DIR$/CreateActivity" />
+            <option value="$PROJECT_DIR$/IPRadio" />
             <option value="$PROJECT_DIR$/MultiThreadDownload" />
             <option value="$PROJECT_DIR$/MyHttpClient" />
+            <option value="$PROJECT_DIR$/SMSInterceptor" />
             <option value="$PROJECT_DIR$/TransmitDate" />
             <option value="$PROJECT_DIR$/XUtils" />
           </set>

@@ -46,6 +46,12 @@
             android:layout_height="wrap_content"
             android:text="快捷回复"
             android:onClick="chooseSms"/>
+        <Button
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="认错"
+            android:onClick="Admit"/>
     </LinearLayout>
 
 </LinearLayout>

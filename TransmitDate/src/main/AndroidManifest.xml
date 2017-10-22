@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".ContentActivity" />
-        <activity android:name=".SmsActivity"></activity>
+        <activity android:name=".SmsActivity" />
+        <activity android:name=".HandleExceptionActivity"></activity>
     </application>
 
 </manifest>
