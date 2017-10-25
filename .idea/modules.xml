@@ -3,11 +3,14 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ActivityRunMode/ActivityRunMode.iml" filepath="$PROJECT_DIR$/ActivityRunMode/ActivityRunMode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AppsListener/AppsListener.iml" filepath="$PROJECT_DIR$/AppsListener/AppsListener.iml" />
       <module fileurl="file://$PROJECT_DIR$/AsyncHttpClient/AsyncHttpClient.iml" filepath="$PROJECT_DIR$/AsyncHttpClient/AsyncHttpClient.iml" />
       <module fileurl="file://$PROJECT_DIR$/CreateActivity/CreateActivity.iml" filepath="$PROJECT_DIR$/CreateActivity/CreateActivity.iml" />
       <module fileurl="file://$PROJECT_DIR$/IPRadio/IPRadio.iml" filepath="$PROJECT_DIR$/IPRadio/IPRadio.iml" />
       <module fileurl="file://$PROJECT_DIR$/MultiThreadDownload/MultiThreadDownload.iml" filepath="$PROJECT_DIR$/MultiThreadDownload/MultiThreadDownload.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyHttpClient/MyHttpClient.iml" filepath="$PROJECT_DIR$/MyHttpClient/MyHttpClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ransomware/Ransomware.iml" filepath="$PROJECT_DIR$/Ransomware/Ransomware.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SDListener/SDListener.iml" filepath="$PROJECT_DIR$/SDListener/SDListener.iml" />
       <module fileurl="file://$PROJECT_DIR$/SMSInterceptor/SMSInterceptor.iml" filepath="$PROJECT_DIR$/SMSInterceptor/SMSInterceptor.iml" />
       <module fileurl="file://$PROJECT_DIR$/SecondProject.iml" filepath="$PROJECT_DIR$/SecondProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/TransmitDate/TransmitDate.iml" filepath="$PROJECT_DIR$/TransmitDate/TransmitDate.iml" />
